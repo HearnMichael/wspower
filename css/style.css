@@ -1,0 +1,28 @@
+body {
+    padding:20px;
+}
+
+
+#menu {
+    list-style: none;
+}
+
+#menu li {
+    float:left;
+    padding: 5px;
+}
+
+#menu li a:link, #menu li a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+#menu li a:hover, #menu li a:active {
+    background-color: red;
+}
+
